@@ -1,73 +1,73 @@
 const products = [
   {
     id: 1,
-    name: 'Ultimate Pepperoni',
+    name: 'Air Jordan 11 Low Bred',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/peperoni.png',
-    price: 12.99,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYSEoRKgYucZvEXzP5_Tdx0nqznBksa652kVb2xqJ7Zktan9TTac8kThS6HcbRZ_LQZIydNRDgmuAYywwR3rRY3al8yhBA=s1600',
+    price: 230.00,
   },
   {
     id: 2,
-    name: 'ExtravaganZZa',
+    name: 'Air Jordan 4 Bred',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/extravaganzza.png',
-    price: 14.99,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYSoEbPQ0uUTC8zRWxv0UFNSTvNl7qfVtPpqlOqDMg835mfqPlvNkuBosfmeRgLDhWyekE4K6ja5g0Sun0WG7hB4h0FyOw=s1600',
+    price: 220.00,
   },
   {
     id: 3,
-    name: 'MeatZZa',
+    name: 'Nike Low Pandas',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/peperoni.png',
-    price: 13.47,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTw7pMvK3IQqvg0N0fTtonEi5cRAkGTdP26bcg1kC5qHPb7psopZS2afSHrQEpP85qfVKJempXKhoClOf3YK14jsCDM=s1600',
+    price: 120.00,
   },
   {
     id: 4,
-    name: 'Margarita',
+    name: 'Air Jordan 4 PSG',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/margarita.png',
-    price: 9.9,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTkciCbuasqx73bqqGZEqiIzGDY6DPxlE7hT1MJ5pCqKGekKs-xUwzOR1NroNtsVZpxy60XjwDwmoTbqCq9D5MEl3Ym=s1600',
+    price: 385.00,
   },
   {
     id: 5,
-    name: 'Pacific Veggie',
+    name: 'Air jordan 1 High Mocha',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/veggie.png',
-    price: 12.99,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYQmHglWPVCLXC3Jbsm8SDUUkO8etMi1IQfqWIoBaVuObkx7qngDI4_kjEgxXevxxf3Cc6eFpZZecumyriT9Zh7mKdsfZQ=s1600',
+    price: 350.00,
   },
   {
     id: 6,
-    name: 'Hawaiian',
+    name: 'Travis Scott Air jordan 1 Low OG Olive',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/hawaiin.png',
-    price: 10.49,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYR3-BJhpvwx7ZdVyp77YXGfMcyKwXJXqLrmIcoU4AMJ553Iwl5l75tW6YZjl5g5ZXOlKtbw-augfTV1HZyvYppH5nx7RQ=s1600',
+    price: 420.00,
   },
   {
     id: 7,
-    name: 'Deluxe',
+    name: 'Nike Dunk Low GYM RED',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/deluxe.png',
-    price: 16.99,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYQVA6WLRd6q2tYNoY1Hog7TqIIsvXj6ZdCewI9sFx72BJqO7Ccae02VbONwNn3o4_YnSnoitvA-UWB78SOufTQo969W=s1600',
+    price: 110.00,
   },
   {
     id: 8,
-    name: 'BBQ Chicken',
+    name: 'Travis Scott Air Jordan 1 Fragment',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/veggie.png',
-    price: 12.89,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYQIFoajLuW18-LVeigWb1nos5dMY2L8RMPVvLBiMNjYxWUv3Qqw90FI2eObx3KEjPmXJ1DEYpEkhvoTalOq_C87pFn7=s1600',
+    price: 1250.00,
   },
   {
     id: 9,
-    name: 'Chicken Bacon Ranch',
+    name: 'Yeezy 350 Boost V2 ONYX',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/extravaganzza.png',
-    price: 13.99,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYR88BSsVsBPeCrbRGnZ2O0TuEqoDInDNNbIGhYxWqaFtJsXE5oHfhXmjP9NUOKzp76J2kP13VOdeJYBojONXYVkmCzuNw=s1600',
+    price: 235.00,
   },
   {
     id: 10,
-    name: '6 Cheese',
+    name: 'Yeezy 350 Boost V2 Salt',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/6cheese.png',
-    price: 13.29,
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYR05GVayzXkKsU32HaVI1Q6zrey3M59Q2aTn5avQ37XK0k3VufQ9x90okdTwSoNplIEm-ks3JIn5BosHpmnPT0mbPl23g=s1600',
+    price: 250.00,
   },
 ];
 
