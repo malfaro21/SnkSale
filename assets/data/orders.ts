@@ -1,8 +1,8 @@
-import { Order } from '../../src/types';
-import products from './products';
-import dayjs from 'dayjs';
+import { Order } from '../../src/types'; //Imports the order type from src folder.
+import products from './products'; // Imports the default export from products.
+import dayjs from 'dayjs'; //Imports the default export from dayjs
 
-const now = dayjs();
+const now = dayjs(); //assigns 
 
 const orders: Order[] = [
   {
