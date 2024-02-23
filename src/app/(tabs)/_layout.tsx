@@ -11,37 +11,38 @@ function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>['name'];
   color: string;
 }) {
-  return <FontAwesome size={20} style={{ marginBottom: -3 }} {...props} />;
+  return <FontAwesome size={20} style={{ marginBottom: -3 }} {...props} />; // sets style of icon
 }
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
+  const colorScheme = useColorScheme(); // to respond to device color scheme changes
 
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint, // sets the tint color of tab bar whenever it is active
       }}
       >
        <Tabs.Screen name="index" options={{ href: null}} /> 
 
       <Tabs.Screen
-        name="sneakers"
+        name="sneakers" // sets name
         options={{
-          title: 'Sneakers',
-          headerShown: false,
+          title: 'Sneakers', // sets title for header
+          headerShown: false, // makes header not visible
           tabBarIcon: ({ color }) => (
-          <TabBarIcon name="home" color={color} />
+          <TabBarIcon name="home" color={color} /> // sets color of tab bar icon
           ),
-          headerRight: () => (
+          headerRight: () => ( // makes our header interactive by making it a pressable
+            // sets link to navigate to when pressed
             <Link href="/modal" asChild>
-              <Pressable>
+              <Pressable> 
                 {({ pressed }) => (
                   <FontAwesome
-                    name="info-circle"
-                    size={25}
-                    color={Colors[colorScheme ?? 'light'].text}
-                    style={{ marginRight: 15, opacity: pressed ? 0.5 : 1 }}
+                    name="info-circle" // sets name
+                    size={25} // sets size
+                    color={Colors[colorScheme ?? 'light'].text} // sets color
+                    style={{ marginRight: 15, opacity: pressed ? 0.5 : 1 }} // changes opacity based on whether it is pressed or not
                   />
                 )}
               </Pressable>
@@ -50,10 +51,10 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="two" // sets name
         options={{
-          title: 'Favorites',
-          tabBarIcon: ({ color }) => <TabBarIcon name="list" color={color} />,
+          title: 'Favorites', // sets header title
+          tabBarIcon: ({ color }) => <TabBarIcon name="list" color={color} />, // sets icon image to list icon and gives it color
         }}
       />
     </Tabs>
