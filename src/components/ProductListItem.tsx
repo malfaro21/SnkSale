@@ -42,12 +42,12 @@ const styles = StyleSheet.create({
     width: '100%',
     aspectRatio: 2/1,
   },
-  title: {
+  title: {//adjust the fontSize to 18, fontWeight to '600', and marginVertical to 10 all in the component title
     fontSize: 18,
     fontWeight: '600',
     marginVertical: 10,
   },
-  price:{
+  price:{// adjust color to the value Colors.light.tint is ,and fontWeight to bold all in the component price
     color: Colors.light.tint,
     fontWeight: 'bold'
   }
