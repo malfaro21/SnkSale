@@ -71,4 +71,4 @@ const products = [ //defines an array named products
   },
 ];
 
-export default products; //exports the products array as a default to be used in other modules.
+export default products; //exports the products array as a default to be used in other modules an an import
