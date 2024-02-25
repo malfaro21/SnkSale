@@ -1,10 +1,10 @@
-const products = [
+const products = [ //defines an array named products
   {
-    id: 1,
-    name: 'Air Jordan 11 Low Bred',
-    image:
-      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYSEoRKgYucZvEXzP5_Tdx0nqznBksa652kVb2xqJ7Zktan9TTac8kThS6HcbRZ_LQZIydNRDgmuAYywwR3rRY3al8yhBA=s1600',
-    price: 230.00,
+    id: 1, //Assigns the id for the product
+    name: 'Air Jordan 11 Low Bred', // Assigns the name of the product
+    image: //assigns an image for the product
+      'https://lh3.googleusercontent.com/drive-viewer/AEYmBYSEoRKgYucZvEXzP5_Tdx0nqznBksa652kVb2xqJ7Zktan9TTac8kThS6HcbRZ_LQZIydNRDgmuAYywwR3rRY3al8yhBA=s1600', 
+    price: 230.00, //assigns the price of the product
   },
   {
     id: 2,
@@ -71,4 +71,4 @@ const products = [
   },
 ];
 
-export default products;
+export default products; //exports the products array as a default to be used in other modules.
