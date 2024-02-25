@@ -2,20 +2,20 @@ import { Order } from '../../src/types'; //Imports the order type from src folde
 import products from './products'; // Imports the default export from products.
 import dayjs from 'dayjs'; //Imports the default export from dayjs
 
-const now = dayjs(); //assigns 
+const now = dayjs(); //assigns dayjs to a variable named now
 
 const orders: Order[] = [
   {
     id: 23123,
     created_at: now.subtract(1, 'hour').toISOString(),
     total: 31.4,
-    status: 'Cooking',
+    status: 'Packing',
     user_id: '1',
     order_items: [
       {
         id: 1,
         order_id: 23123,
-        size: 'M',
+        size: '10',
         quantity: 2,
         product_id: products[0].id,
         products: products[0],
