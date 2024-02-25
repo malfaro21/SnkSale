@@ -4,26 +4,26 @@ import dayjs from 'dayjs'; //Imports the default export from dayjs
 
 const now = dayjs(); //assigns dayjs to a variable named now
 
-const orders: Order[] = [
+const orders: Order[] = [ //Assigns an array of orders to orders
   {
-    id: 23123,
-    created_at: now.subtract(1, 'hour').toISOString(),
-    total: 31.4,
-    status: 'Packing',
-    user_id: '1',
-    order_items: [
+    id: 23123, //assigns an id number to order
+    created_at: now.subtract(1, 'hour').toISOString(), //time the order was placed subtracted by an hour, it converts the time to ISO format
+    total: 670.0, //total of the order
+    status: 'Packing', //order status
+    user_id: '1', //id of user who placed order
+    order_items: [ //items that were ordered
       {
-        id: 1,
-        order_id: 23123,
-        size: '10',
-        quantity: 2,
-        product_id: products[0].id,
-        products: products[0],
+        id: 1, //id of item ordered
+        order_id: 23123, //id of order being placed
+        size: '10', //size of the item
+        quantity: 2, //how many are being placed
+        product_id: products[0].id, //gets the first item in the products array
+        products: products[0], //assigns the products array to the first one.
       },
       {
         id: 2,
         order_id: 23123,
-        size: 'L',
+        size: '9',
         quantity: 1,
         product_id: products[1].id,
         products: products[1],
@@ -32,15 +32,15 @@ const orders: Order[] = [
   },
   {
     id: 32145,
-    created_at: now.subtract(3, 'days').toISOString(),
-    total: 11.4,
+    created_at: now.subtract(3, 'days').toISOString(), //the day the order was created minus 3 days. Using ISO format
+    total: 240.0,
     status: 'Delivered',
     user_id: '1',
     order_items: [
       {
         id: 1,
         order_id: 32145,
-        size: 'M',
+        size: '10',
         quantity: 2,
         product_id: products[3].id,
         products: products[3],
@@ -49,15 +49,15 @@ const orders: Order[] = [
   },
   {
     id: 23445,
-    created_at: now.subtract(3, 'weeks').toISOString(),
-    total: 11.4,
+    created_at: now.subtract(3, 'weeks').toISOString(), //the day the order was created minus 3 weeks. Using ISO format
+    total: 1480.0,
     status: 'Delivered',
     user_id: '1',
     order_items: [
       {
         id: 1,
         order_id: 23445,
-        size: 'M',
+        size: '10',
         quantity: 1,
         product_id: products[3].id,
         products: products[3],
@@ -65,7 +65,7 @@ const orders: Order[] = [
       {
         id: 2,
         order_id: 23445,
-        size: 'M',
+        size: '10',
         quantity: 1,
         product_id: products[7].id,
         products: products[7],
@@ -73,7 +73,7 @@ const orders: Order[] = [
       {
         id: 3,
         order_id: 23445,
-        size: 'L',
+        size: '10',
         quantity: 1,
         product_id: products[8].id,
         products: products[8],
@@ -82,4 +82,4 @@ const orders: Order[] = [
   },
 ];
 
-export default orders;
+export default orders; //exports orders array as the default so other modules can call the function
